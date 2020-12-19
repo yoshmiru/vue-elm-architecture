@@ -1,8 +1,10 @@
 # vue-elm-architecture
 
-## Example app written in Vue.js with Elm Architecture.
+## Example app written in Vue.js with [Elm Architecture](https://guide.elm-lang.org/architecture/).
 
 Deployed on Netlify https://silly-minsky-0954ea.netlify.app/
+
+Elm Architecture https://guide.elm-lang.org/architecture/
 
 > 
 
