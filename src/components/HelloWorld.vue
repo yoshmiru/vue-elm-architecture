@@ -4,7 +4,7 @@
 
     <div v-if="model.view.equals(DEFAULT_VIEW)">
       <h3>{{ model.view.i }}</h3>
-      <button @click="update(COUNT_UP)">+</button>
+      <button @click="update(COUNT_UP, model)">+</button>
     </div>
 
     <h2>Essential Links</h2>
@@ -122,9 +122,9 @@ export default {
     }
   },
   methods: {
-    update (msg) {
+    update (msg, model) {
       if (msg === COUNT_UP) {
-        this.model.view.i = COUNT_UP(this.model.view.i)
+        model.view.i = COUNT_UP(model.view.i)
       } else {
         //
       }
