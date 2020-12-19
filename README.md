@@ -2,6 +2,8 @@
 
 ## Example app written in Vue.js with Elm Architecture.
 
+Deployed on Netlify https://silly-minsky-0954ea.netlify.app/
+
 > 
 
 ## Build Setup
